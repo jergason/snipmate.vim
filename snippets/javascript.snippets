@@ -17,7 +17,7 @@ snippet fun
 	}
 # Anonymous Function
 snippet f
-	function (${1}) {
+	function(${1}) {
 		${2}
 	};
 # if
@@ -86,3 +86,8 @@ snippet get
 # Get Element
 snippet gett
 	getElementBy${1:Id}('${2}')${3}
+# requirejs commonjs style
+snippet def
+	define(function(require) {
+		${1}	
+	})
